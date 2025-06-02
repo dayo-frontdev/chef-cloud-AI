@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   gap: 5px;
-  margin: 30px;
+  margin: 30px 30px 0;
   height: 38px;
 }
 
@@ -119,6 +119,12 @@ margin-right: 5px;
   gap: 15px;
 }
 
+.instruct {
+  color: #f04005;
+  margin:0 auto;
+  width: 530px;
+}
+
 @media(max-width:600px){
 .recipe {
   flex-direction: column;
@@ -150,16 +156,18 @@ margin-right: 5px;
   font-size: 0.875rem;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
+
+.instruct {
+  color: #f04005;
+  margin-left:28px;
+}
 }
 
 .recipe > p{
   color: #475467;
 }
 
-.instruct p{
-  color: #f04005;
-  margin-left: 28px;
-}
+
 
 /* suggest--section */
 

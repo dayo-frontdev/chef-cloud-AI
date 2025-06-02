@@ -54,10 +54,11 @@ function Form(){
             <button className='add-button'
             >Add ingridient</button>
         </form>
-        <div className='instruct'>
-      { setDefualt.length < 4 && <p > 
+            <div className='instruct'>
+      { setDefualt.length < 4 && <span> 
         Add more ingredient minimum of {4 - setDefualt.length}
-        </p>}</div>    
+        </span>}</div>  
+          
          <IngredientsList 
           ref = {recipeSection}
           setDefualt={setDefualt} 
