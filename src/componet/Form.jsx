@@ -56,7 +56,7 @@ function Form(){
         </form>
             <div className='instruct'>
       { setDefualt.length < 4 && <span> 
-        Add more ingredient minimum of {4 - setDefualt.length}
+        add more ingredient minimum of {4 - setDefualt.length}
         </span>}</div>  
           
          <IngredientsList 
